@@ -1,0 +1,14 @@
+.tags {
+    display: flex;
+    gap: 1em;
+    &__button {
+        background-color: #ff6060;
+        border-radius: 15px;
+        border: none;
+        height: 1.75em;
+        font-size: 1em;
+        color: #ffff;
+        text-align: center;
+        padding: 5px 10px;
+    }
+}

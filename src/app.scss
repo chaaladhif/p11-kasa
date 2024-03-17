@@ -1,0 +1,16 @@
+* {
+    font-weight: 400;
+}
+
+body {
+    font-family: "Montserrat", "sans serif";
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    main {
+        margin: auto;
+        max-width: 1440px;
+        width: 100%;
+    }
+}

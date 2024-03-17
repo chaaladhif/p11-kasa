@@ -1,0 +1,32 @@
+.carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .arrow {
+        z-index: 1;
+        position: absolute;
+    }
+    .arrow_left {
+        left: 26px;
+    }
+    .arrow_right {
+        right: 26px;
+    }
+    &__slide {
+        width: 98%;
+        height: 25rem;
+        margin: 1rem auto;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    &__count {
+        color: #ffff;
+        position: relative;
+        bottom: 3rem;
+        font-weight: 600;
+        font-family: "Montserrat";
+    }
+}

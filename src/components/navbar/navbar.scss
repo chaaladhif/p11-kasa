@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    &__logo {
+        img {
+            width: 60%;
+        }
+    }
+    &__link {
+        display: flex;
+        gap: 2em;
+
+        &--1,
+        &--2 {
+            text-decoration: none;
+            color: #000;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

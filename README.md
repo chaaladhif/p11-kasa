@@ -1,7 +1,6 @@
-p11: kasa ![Screenshot](kasa.png)
-mon objectif :
+![p11: kasa](kasa.png)
 
----
+## mon objectif :
 
 Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)
 

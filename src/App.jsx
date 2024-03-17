@@ -1,24 +1,26 @@
 import React from "react";
-import "../src/styles/App.css";
+import "./app.scss";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Home from "./pages/home";
-import About from "./pages/about";
-import ErrorPage from "./pages/errorPage";
-import Logement from "./pages/logement";
+import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
+import About from "./pages/about/about";
+import ErrorPage from "./pages/errorPage/errorPage";
+import Logement from "./pages/logement/logement";
 function App() {
     return (
-        <div>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="*" element={<ErrorPage />} />
-                <Route path="/Logement/:id" element={<Logement />} />
-            </Routes>
+        <>
+            <main>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="*" element={<ErrorPage />} />
+                    <Route path="/Logement/:id" element={<Logement />} />
+                </Routes>
+            </main>
             <Footer />
-        </div>
+        </>
     );
 }
 

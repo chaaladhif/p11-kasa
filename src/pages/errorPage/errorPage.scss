@@ -1,0 +1,17 @@
+.errorPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em;
+    &__img {
+    }
+    &__text {
+        color: #ff6060;
+        font-size: 2em;
+        margin: 2em 0;
+    }
+    &__link {
+        color: #000;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,19 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+    }
+    &__right {
+    }
+}
+.description__collapse {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 2em 0;
+}
+.details {
+    width: 45%;
+}
