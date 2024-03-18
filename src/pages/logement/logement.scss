@@ -1,9 +1,18 @@
+@import "../../assets/endpoints.scss";
 .description {
     display: flex;
     justify-content: space-between;
+    @include mobile-only {
+        flex-direction: column;
+    }
     &__left {
     }
     &__right {
+        @include mobile-only {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
     }
 }
 .description__collapse {
@@ -13,6 +22,9 @@
     justify-content: space-between;
     gap: 2em;
     margin: 2em 0;
+    @include mobile-only {
+        flex-direction: column;
+    }
 }
 .details {
     width: 45%;

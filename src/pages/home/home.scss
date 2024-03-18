@@ -1,3 +1,4 @@
+@import "../../assets/endpoints.scss";
 .cards {
     background-color: #f7f7f7;
     display: flex;
@@ -5,4 +6,8 @@
     justify-content: space-between;
     border-radius: 10px;
     padding: 3em 2em;
+    @include mobile-only {
+        flex-direction: column;
+        padding: 0;
+    }
 }

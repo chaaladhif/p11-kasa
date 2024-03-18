@@ -1,8 +1,12 @@
+@import "../../assets/endpoints.scss";
 .card {
     position: relative;
     width: 30%;
     border-radius: 5px;
     margin-bottom: 3em;
+    @include mobile-only {
+        width: 100%;
+    }
     img {
         width: 100%;
         object-fit: cover;

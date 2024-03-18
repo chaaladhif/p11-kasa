@@ -1,3 +1,4 @@
+@import "../../assets/endpoints.scss";
 .navbar {
     display: flex;
     align-items: center;
@@ -6,12 +7,19 @@
     &__logo {
         img {
             width: 60%;
+            @include mobile-only {
+                width: 80%;
+            }
         }
     }
     &__link {
         display: flex;
         gap: 2em;
-
+        @include mobile-only {
+            justify-content: space-between;
+            width: 82%;
+            gap: 0;
+        }
         &--1,
         &--2 {
             text-decoration: none;
@@ -19,6 +27,9 @@
 
             &:hover {
                 text-decoration: underline;
+            }
+            @include mobile-only {
+                text-transform: uppercase;
             }
         }
     }

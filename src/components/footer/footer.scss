@@ -1,3 +1,4 @@
+@import "../../assets/endpoints.scss";
 .footer {
     background-color: #000;
     display: flex;
@@ -6,5 +7,10 @@
     padding: 1em;
     &__text {
         color: #fff;
+        @include mobile-only {
+            width: 37%;
+            font-size: 0.8em;
+            margin-left: 1em;
+        }
     }
 }

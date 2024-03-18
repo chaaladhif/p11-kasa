@@ -1,5 +1,15 @@
+@import "../../assets/endpoints.scss";
 .rating {
     display: flex;
     align-items: center;
-    margin-top: 0.5em;
+    .redStar {
+        @include mobile-only {
+            width: 1.4em;
+        }
+    }
+    .greyStar {
+        @include mobile-only {
+            width: 1em;
+        }
+    }
 }
