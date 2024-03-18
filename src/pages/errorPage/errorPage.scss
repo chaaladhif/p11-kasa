@@ -1,17 +1,32 @@
+@import "../../assets/endpoints.scss";
 .errorPage {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 4em;
+    @include mobile-only {
+        margin: 2em;
+    }
     &__img {
+        @include mobile-only {
+            width: 100%;
+        }
     }
     &__text {
         color: #ff6060;
         font-size: 2em;
         margin: 2em 0;
+        @include mobile-only {
+            font-size: 1em;
+            text-align: center;
+        }
     }
     &__link {
         color: #000;
         font-size: 1em;
+        @include mobile-only {
+            font-size: 0.8em;
+            text-align: center;
+        }
     }
 }
