@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ErrorPage() {
     return (
         <div className="errorPage">
-            <img src={error} alt="errorPage__img" />
+            <img className="errorPage__img" src={error} alt="errorPage__img" />
             <p className="errorPage__text">
                 Oups! La page que vous demandez n'existe pas.
             </p>

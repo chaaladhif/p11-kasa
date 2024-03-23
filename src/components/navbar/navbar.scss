@@ -5,8 +5,9 @@
     justify-content: space-between;
     margin-bottom: 1em;
     &__logo {
+        width: 50%;
         img {
-            width: 60%;
+            width: 80%;
             @include mobile-only {
                 width: 80%;
             }
@@ -14,14 +15,15 @@
     }
     &__link {
         display: flex;
-        gap: 2em;
+        justify-content: end;
+        gap: 10%;
+        width: 50%;
         @include mobile-only {
-            justify-content: space-between;
-            width: 82%;
-            gap: 0;
+            // width: 82%;
         }
-        &--1,
-        &--2 {
+        &__item {
+            font-size: 0.9em;
+            text-wrap: nowrap;
             text-decoration: none;
             color: #000;
 
