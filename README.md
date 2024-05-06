@@ -4,6 +4,8 @@
 
 Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)
 
+## lien Figma:
+https://www.figma.com/proto/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?node-id=0-1
 ## Contraintes techniques :
 
 React :
